@@ -1,0 +1,8 @@
+.disclaimer {
+  text-align: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 60px;
+  margin: auto;
+}

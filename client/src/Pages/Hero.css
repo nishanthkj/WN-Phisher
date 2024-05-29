@@ -1,0 +1,35 @@
+.hero-content {
+  text-align: center;
+}
+
+Button {
+  display: inline-flex;
+  justify-self: center;
+}
+/* src/components/TwoColumnGrid.css */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Optional: to add space between columns */
+  padding: 20px; /* Optional: to add padding around the grid */
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  text-align: center; /* Optional: to center text within grid items */
+}
+
+.grid-item:hover {
+  background-color: #000000;
+  color: #f0f0f0;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+}
